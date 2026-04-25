@@ -1,0 +1,60 @@
+{
+  "name": "expo-telegram-login",
+  "version": "1.0.0",
+  "description": "Expo module wrapping Telegram's official native iOS and Android Login SDKs.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "expo-module build && tsc -p plugin",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-telegram-login",
+    "telegram",
+    "telegram-login",
+    "oauth",
+    "oidc",
+    "auth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahdi-salmanzade/expo-telegram-login"
+  },
+  "bugs": {
+    "url": "https://github.com/mahdi-salmanzade/expo-telegram-login/issues"
+  },
+  "author": "Mahdi Salmanzade",
+  "license": "MIT",
+  "homepage": "https://github.com/mahdi-salmanzade/expo-telegram-login#readme",
+  "files": [
+    "build",
+    "plugin/build",
+    "android",
+    "ios",
+    "expo-module.config.json",
+    "app.plugin.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "app.plugin.js": "./app.plugin.js",
+  "devDependencies": {
+    "@types/react": "~19.2.10",
+    "expo-module-scripts": "^4.0.0",
+    "expo-modules-core": "~3.0.0",
+    "react": "19.2.0",
+    "react-native": "0.83.4"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

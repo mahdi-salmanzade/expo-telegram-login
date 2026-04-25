@@ -1,0 +1,6 @@
+node_modules/
+build/
+plugin/build/
+*.log
+.DS_Store
+.expo/

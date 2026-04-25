@@ -1,0 +1,10 @@
+{
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["ExpoTelegramLoginModule"],
+    "appDelegateSubscribers": ["ExpoTelegramLoginAppDelegate"]
+  },
+  "android": {
+    "modules": ["expo.modules.telegramlogin.ExpoTelegramLoginModule"]
+  }
+}

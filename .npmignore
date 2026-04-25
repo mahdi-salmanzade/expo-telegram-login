@@ -1,0 +1,9 @@
+node_modules/
+src/
+plugin/src/
+plugin/tsconfig.json
+tsconfig.json
+.gitignore
+.expo/
+*.log
+.DS_Store
