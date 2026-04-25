@@ -1,4 +1,4 @@
-# expo-telegram-login
+# expo-telegram-login-sdk
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -26,14 +26,16 @@ Built and tested against Expo SDK 55 / React Native 0.83 on iOS 16+ and Android 
 
 ## Installation
 
-Not yet on npm. Install directly from this repo:
+```bash
+npm install expo-telegram-login-sdk
+# or
+yarn add expo-telegram-login-sdk
+```
+
+If you need an unreleased commit, you can install directly from GitHub instead:
 
 ```bash
-# main branch (latest)
 npm install github:mahdi-salmanzade/expo-telegram-login#main
-
-# pinned tag (recommended)
-npm install github:mahdi-salmanzade/expo-telegram-login#v1.0.0
 ```
 
 ### Android: GitHub Packages credentials
@@ -101,7 +103,7 @@ BotFather replies with an Android Native App ID and a separate App URL (differen
   "expo": {
     "plugins": [
       [
-        "expo-telegram-login",
+        "expo-telegram-login-sdk",
         {
           "ios": { "appId": "214154937" },
           "android": { "appId": "3978549428" },
@@ -133,7 +135,7 @@ After editing `app.json`, run `npx expo prebuild --clean` (or rebuild via EAS).
 ## Usage
 
 ```ts
-import * as TelegramLogin from 'expo-telegram-login';
+import * as TelegramLogin from 'expo-telegram-login-sdk';
 import { Platform } from 'react-native';
 
 const NATIVE_APP_ID = Platform.select({
@@ -260,7 +262,7 @@ Your `gpr.user` / `gpr.key` aren't reaching Gradle. Check `~/.gradle/gradle.prop
 Switch to the GitHub URL form so EAS can resolve it:
 
 ```json
-"expo-telegram-login": "github:mahdi-salmanzade/expo-telegram-login#v1.0.0"
+"expo-telegram-login-sdk": "^1.0.0"
 ```
 
 ## Architecture

@@ -1,5 +1,5 @@
 {
-  "name": "expo-telegram-login",
+  "name": "expo-telegram-login-sdk",
   "version": "1.0.0",
   "description": "Expo module wrapping Telegram's official native iOS and Android Login SDKs.",
   "main": "build/index.js",
