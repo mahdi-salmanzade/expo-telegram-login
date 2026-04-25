@@ -1,6 +1,9 @@
 node_modules/
-build/
-plugin/build/
 *.log
 .DS_Store
 .expo/
+
+# Gradle build output (Android only). The package's TS build/ and plugin/build/
+# ARE tracked so github:owner/repo installs work without running prepare.
+android/build/
+android/.gradle/

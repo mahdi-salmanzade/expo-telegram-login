@@ -1,0 +1,1 @@
+{"version":3,"file":"ExpoTelegramLoginModule.d.ts","sourceRoot":"","sources":["../src/ExpoTelegramLoginModule.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,gBAAgB,EAAE,YAAY,EAAE,MAAM,2BAA2B,CAAC;AAEhF,UAAU,6BAA6B;IACrC,SAAS,CAAC,OAAO,EAAE,gBAAgB,GAAG,IAAI,CAAC;IAC3C,MAAM,IAAI,OAAO,CAAC,YAAY,CAAC,CAAC;CACjC;;AAED,wBAAuF"}
